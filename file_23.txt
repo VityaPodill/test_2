@@ -1,4 +1,3 @@
 podill1
 gfgfg
-hello trump
-hello byden
+hello X
