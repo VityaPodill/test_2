@@ -6,11 +6,15 @@ public class Main {
         int b=7;
         System.out.println(diff(a,b));
         System.out.println(sum(a,b));
+        System.out.println(mult(a,b));
     }
     private static int sum(int a,int b){
         return a+b;
     }
     private static int diff(int a,int b){
         return a-b;
+    }
+    private static int mult(int a,int b){
+        return a*b;
     }
 }
