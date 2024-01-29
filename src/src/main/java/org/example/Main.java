@@ -9,6 +9,7 @@ public class Main {
         System.out.println(mult(a, b));
         System.out.println(div(a, b));
         System.out.println(mod(a, b));
+        System.out.println(pow(a, b));
     }
 
     private static int sum(int a, int b) {
@@ -29,5 +30,9 @@ public class Main {
 
     private static int mod(int a, int b) {
         return a % b;
+    }
+
+    private static int pow(int a, int b) {
+        return (int) Math.pow(a, b);
     }
 }
