@@ -12,7 +12,6 @@ public class Main {
         System.out.println(pow(a, b));
         System.out.println(min(a, b));
         System.out.println(max(a, b));
-
     }
 
     private static int max(int a, int b) {
