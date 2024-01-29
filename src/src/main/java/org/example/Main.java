@@ -7,6 +7,7 @@ public class Main {
         System.out.println(diff(a,b));
         System.out.println(sum(a,b));
         System.out.println(mult(a,b));
+        System.out.println(div(a,b));
     }
     private static int sum(int a,int b){
         return a+b;
@@ -16,5 +17,8 @@ public class Main {
     }
     private static int mult(int a,int b){
         return a*b;
+    }
+    private static int div(int a,int b){
+        return a/b;
     }
 }
