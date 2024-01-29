@@ -12,7 +12,6 @@ public class Main {
         System.out.println(pow(a, b));
         System.out.println(min(a, b));
         System.out.println(max(a, b));
-
     }
 
     private static int max(int a, int b) {
@@ -39,11 +38,12 @@ public class Main {
         return a % b;
     }
 
+    private static int min(int a, int b) {
+        return Math.min(a, b);
+    }
+
     private static int pow(int a, int b) {
         return (int) Math.pow(a, b);
     }
 
-    private static int min(int a, int b) {
-        return Math.min(a, b);
-    }
 }
