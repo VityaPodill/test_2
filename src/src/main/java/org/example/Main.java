@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        int a = 15;
+        int a = 5;
         int b = 7;
         System.out.println(diff(a, b));
         System.out.println(sum(a, b));
@@ -10,6 +10,7 @@ public class Main {
         System.out.println(div(a, b));
         System.out.println(mod(a, b));
         System.out.println(pow(a, b));
+        System.out.println(min(a, b));
     }
 
     private static int sum(int a, int b) {
@@ -34,5 +35,9 @@ public class Main {
 
     private static int pow(int a, int b) {
         return (int) Math.pow(a, b);
+    }
+
+    private static int min(int a, int b) {
+        return Math.min(a, b);
     }
 }
