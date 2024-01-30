@@ -34,9 +34,6 @@ public class Main {
         return a / b;
     }
 
-    private static int mod(int a, int b) {
-        return a % b;
-    }
 
     private static int min(int a, int b) {
         return Math.min(a, b);
@@ -44,6 +41,10 @@ public class Main {
 
     private static int pow(int a, int b) {
         return (int) Math.pow(a, b);
+    }
+
+    private static int mod(int a, int b) {
+        return a % b;
     }
 
 }
