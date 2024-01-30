@@ -46,3 +46,12 @@ public class Main {
         return (int) Math.pow(a, b);
     }
 }
+
+class H {
+    public static void main(String[] args) {
+        double d = 5.99999999;
+        int a = (int) d;
+        System.out.println(a);
+        System.out.println(d);
+    }
+}
