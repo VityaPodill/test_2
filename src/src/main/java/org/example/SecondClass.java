@@ -19,5 +19,8 @@ public class SecondClass {
     SecondClass object = new SecondClass(15);
     System.out.println(object.oneMethod(object.a));
     System.out.println(object.twoMethod(object.a));
+
+        System.out.println(object.twoMethod(object.a));
+
   }
 }
