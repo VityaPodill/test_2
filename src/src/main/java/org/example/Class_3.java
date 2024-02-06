@@ -5,7 +5,6 @@ public class Class_3 {
         int a = 17, b = 24, c;
         c = (int) Math.pow(b, 3);
         System.out.println(a * b);
-////////////////////////////////
         System.out.println(c);
     }
 }
