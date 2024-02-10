@@ -3,7 +3,7 @@ package org.example;
 public class Class_4 {
     public static void main(String[] args) {
         int a = 17, b = 24, c;
-        c = (int) Math.pow(b, 3);
+        c = (int) Math.pow(a, 3);
         System.out.println(a * b);
         System.out.println(c);
         System.out.println(1);
