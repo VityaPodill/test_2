@@ -8,5 +8,6 @@ public class Class_4 {
         System.out.println(4444);
         System.out.println(55555);
         System.out.println(777);
+        System.out.println("=====");
     }
 }
