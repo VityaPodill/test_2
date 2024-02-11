@@ -15,10 +15,5 @@ public class Class_4 {
         System.out.println(55555);
         System.out.println(777);
         System.out.println(777);
-
-        System.out.println(888);
-        System.out.println(888);
-        System.out.println(888);
-        System.out.println(888);
     }
 }
