@@ -2,6 +2,10 @@ package org.example;
 
 public class Class_4 {
     public static void main(String[] args) {
+        System.out.println(888);
+        System.out.println(888);
+        System.out.println(888);
+        System.out.println(888);
         int a = 17, b = 24, c;
         c = (int) Math.pow(a, 3);
         System.out.println(a * b);
