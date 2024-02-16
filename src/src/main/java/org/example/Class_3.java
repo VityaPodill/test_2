@@ -6,5 +6,7 @@ public class Class_3 {
         c = (int) Math.pow(b, 3) + a;
         System.out.println(c);
         System.out.println(a + b);
+        System.out.println(c);
+
     }
 }
