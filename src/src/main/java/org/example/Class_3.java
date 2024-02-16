@@ -8,6 +8,8 @@ public class Class_3 {
         System.out.println(a * b);
         System.out.println(a * b);
         System.out.println(c);
+        System.out.println(55555);
+        System.out.println(55555);
         System.out.println(7);
         System.out.println(7);
         System.out.println(7);
